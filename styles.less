@@ -1,0 +1,36 @@
+
+@Sweet1: rgba(216, 130, 137, 1);
+@Sweet2: rgba(216, 97, 119, 1);
+@Sweet3: rgba(165, 38, 97, 1);
+@Sweet4: rgba(32, 24, 89, 1);
+@Sweet5: rgba(23, 17, 63, 1);
+
+.jumbotron {
+	background-color:@Sweet1; 
+}
+
+.carousel-item{
+	height: 200px;
+	width: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: @Sweet4;
+    border-color: @Sweet5;
+}
+
+.btn-secondary{
+	background-color: @Sweet3;
+    border-color: @Sweet4; 
+}
+
+.btn-primary:hover {
+  background-color: @Sweet2;
+  border-color:#fff;
+}
+
+.btn-secondary:hover{
+	background-color: @Sweet1;
+    border-color: @Sweet2; 
+}
